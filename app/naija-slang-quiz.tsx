@@ -92,7 +92,7 @@ export default function NaijaSlangQuiz() {
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null)
   const [showFeedback, setShowFeedback] = useState(false)
   const [showSplash, setShowSplash] = useState(true)
-  const [timer, setTimer] = useState(60)
+  const [timer, setTimer] = useState(90)
   const [quizStarted, setQuizStarted] = useState(false)
 
   useEffect(() => {
@@ -136,7 +136,7 @@ export default function NaijaSlangQuiz() {
     setShowResult(false)
     setSelectedAnswer(null)
     setShowFeedback(false)
-    setTimer(60)
+    setTimer(90)
     setQuizStarted(true)
   }
 
